@@ -178,17 +178,69 @@ img {
   max-width: 50px;
   position: relative;
   top: -15px;
+  align-self: flex-end;
 }
 
 .header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  left: 36.5%;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.naslovi {
   color: #faa916;
-  border-left: 2px #bf1e2e solid;
+  border-left: 3px #bf1e2e solid;
 }
 
 .header1 {
   font-size: 150px;
   font-weight: bold;
+  margin-bottom: -15px;
+}
+
+.header2 {
+  font-size: 50px;
+  margin-bottom: -3px;
+}
+
+.header3 {
+  font-size: 98px;
+  font-weight: bold;
+}
+
+#header_img {
+  position: relative;
+  margin-top: -170px;
+  margin-left: 210px;
+}
+
+.nastanak {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a3032;
+  padding: 15px;
+  color: #fff;
+}
+
+.nastanak h1 {
+  font-size: 60px;
+  border-bottom: #faa916 solid 3px;
+  width: 220px;
+  text-align: center;
+}
+
+.nastanak p {
+  width: 400px;
+  text-align: justify;
+}
+
+.razmak {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ruke img {
+  max-width: 600px;
 }
